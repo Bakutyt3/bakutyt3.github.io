@@ -167,3 +167,18 @@ footer {
     max-width: 100%;
   }
 }
+@media (max-width: 600px) {
+  .logo-title h1 {
+    font-size: 1.1rem;
+    text-align: center;
+    word-break: break-word;
+  }
+  .logo-title {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .logo {
+    height: 32px;
+    width: 32px;
+  }
+}
